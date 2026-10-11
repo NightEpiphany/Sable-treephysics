@@ -8,7 +8,7 @@
 		"KyanBirb"
 	],
 	"license": "MIT",
-	"icon": "assets/treephysics/icon.png",
+	"icon": "treephysics.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
