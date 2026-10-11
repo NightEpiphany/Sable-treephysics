@@ -1,4 +1,5 @@
 # gradle
+src/**/*.java linguist-vendored=false
 
 .gradle/
 build/

@@ -1,0 +1,13 @@
+Treephysics: Minecraft 26.3 Fabric port
+
+Original Treephysics source:
+Copyright (c) 2025 KyanBirb
+https://github.com/Monad-Modding/tree-physics
+Licensed under the MIT License.
+
+This port replaces the original Fabric/NeoForge and Veil integration with
+
+Sable is a separately distributed dependency by ryanhcode:
+https://github.com/ryanhcode/sable
+The Minecraft 26.3 Sable port is maintained at:
+https://github.com/NightEpiphany/sable-port
