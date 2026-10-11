@@ -1,0 +1,20 @@
+{
+  "textures": [
+    "treephysics:collision_dust_1",
+    "treephysics:collision_dust_2",
+    "treephysics:collision_dust_3",
+    "treephysics:collision_dust_4",
+    "treephysics:collision_dust_5",
+    "treephysics:collision_dust_6",
+    "treephysics:collision_dust_7",
+    "treephysics:collision_dust_8",
+    "treephysics:collision_dust_9",
+    "treephysics:collision_dust_10",
+    "treephysics:collision_dust_11",
+    "treephysics:collision_dust_12",
+    "treephysics:collision_dust_13",
+    "treephysics:collision_dust_14",
+    "treephysics:collision_dust_15",
+    "treephysics:collision_dust_16"
+  ]
+}

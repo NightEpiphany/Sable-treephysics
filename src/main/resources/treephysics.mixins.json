@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.moigferdsrte.treephysics.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "plugin": "com.moigferdsrte.treephysics.TreePhysicsMixinPlugin",
+  "mixins": [
+    "accessors.LevelAcceleratorAccessor",
+    "collision_effects.BeehiveBlockCallbackMixin",
+    "collision_effects.BlockWithSubLevelCallbackMixin",
+    "collision_effects.LeavesBlockMixin",
+    "entity_damage.LivingEntityMixin",
+    "entity_panic.LivingEntityMixin",
+    "entity_panic.PanicGoalMixin",
+    "evil_patch.ServerSubLevelMixin",
+    "leaf_collision.RapierPhysicsPipelineMixin",
+    "leaf_collision.VoxelNeighborhoodStateMixin",
+    "rooted_dirt_placement.TreeFeatureMixin",
+    "rooted_dirt_placement.TrunkPlacerMixin",
+    "tree_pushing.ServerboundPunchSubLevelPacketMixin",
+    "tree_splitting.SubLevelAssemblyHelperMixin",
+    "walk_through_leaves.BlockCollisionsMixin",
+    "walk_through_leaves.BlockStateBaseMixin",
+    "walk_through_leaves.CanFallAtLeastHelperMixin",
+    "walk_through_leaves.LivingEntityMixin",
+    "walk_through_leaves.SubLevelEntityCollisionMixin"
+  ],
+  "client": [
+    "accessors.SpriteContentsAccessor",
+    "leaf_effect_fixes.ParticleEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

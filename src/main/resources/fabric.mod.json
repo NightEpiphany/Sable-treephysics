@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "treephysics",
+	"version": "${version}",
+	"name": "TreePhysics",
+	"description": "A small mod that causes trees to fall with realistic, interactive Physics",
+	"authors": [
+		"KyanBirb"
+	],
+	"license": "MIT",
+	"icon": "assets/treephysics/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.moigferdsrte.treephysics.fabric.TreePhysicsFabric::init"
+		],
+		"client": [
+			"com.moigferdsrte.treephysics.fabric.TreePhysicsClientFabric::init"
+		]
+	},
+	"mixins": [
+		"treephysics.mixins.json",
+		"treephysics.fabric.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"sable": ">=3.0.0 <4.0.0"
+	}
+}

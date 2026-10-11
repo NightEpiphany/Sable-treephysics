@@ -1,0 +1,6 @@
+{
+  "values": [
+    "#treephysics:falls_from_trees",
+    { "id": "nomansland:shelf_mushroom_block", "required": false }
+  ]
+}

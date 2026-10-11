@@ -1,0 +1,25 @@
+{
+  "values": [
+    "minecraft:vine",
+    "minecraft:mangrove_propagule",
+    { "id": "nomansland:tap", "required": false },
+    { "id": "nomansland:beard_moss", "required": false },
+    { "id": "nomansland:shelf_mushroom_block", "required": false },
+    { "id": "nomansland:shelf_mushroom", "required": false },
+    { "id": "biomesoplenty:spanish_moss_plant", "required": false },
+    { "id": "biomesoplenty:willow_vine", "required": false },
+    { "id": "environmental:white_hanging_wisteria_leaves", "required": false },
+    { "id": "environmental:pink_hanging_wisteria_leaves", "required": false },
+    { "id": "environmental:blue_hanging_wisteria_leaves", "required": false },
+    { "id": "environmental:purple_hanging_wisteria_leaves", "required": false },
+    { "id": "environmental:hanging_willow_leaves", "required": false },
+    { "id": "upgrade_aquatic:mulberry_vine", "required": false },
+    { "id": "spawn:dangling_date_leaves", "required": false },
+    { "id": "spawn:date_bunch", "required": false },
+    { "id": "bountifulfares:wall_palm_frond", "required": false },
+    { "id": "#burnt:wood_fire", "required": false },
+    { "id": "malum:hanging_soulwood_leaves", "required": false },
+    { "id": "malum:hanging_azure_runewood_leaves", "required": false },
+    { "id": "malum:hanging_runewood_leaves", "required": false }
+  ]
+}

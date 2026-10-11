@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:dirt",
+    "#c:sands",
+    "#c:stones",
+    "#c:gravels",
+    "#minecraft:nylium",
+    "minecraft:netherrack",
+    "#minecraft:concrete_powder",
+    "#minecraft:snow",
+    "#c:end_stones",
+    "#minecraft:terracotta"
+  ]
+}
