@@ -1,3 +1,5 @@
+import java.net.URI
+
 plugins {
 	id("net.fabricmc.fabric-loom")
 	`maven-publish`
@@ -7,6 +9,10 @@ repositories {
 	flatDir {
         dirs("libs")
     }
+	maven {
+		name = "Modrinth"
+		url = URI("https://api.modrinth.com/maven")
+	}
     mavenCentral()
 }
 
@@ -18,6 +24,8 @@ dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft("com.mojang:minecraft:${providers.gradleProperty("minecraft_version").get()}")
 	implementation("net.fabricmc:fabric-loader:${providers.gradleProperty("loader_version").get()}")
+	// Sodium
+	implementation("maven.modrinth:AANobbMI:v4PSXean")
 	// Sable
     implementation(":sable-fabric-26.3:3.0.0")
     implementation(files("libs/forgeconfigapiport-fabric-26.3.1.jar"))

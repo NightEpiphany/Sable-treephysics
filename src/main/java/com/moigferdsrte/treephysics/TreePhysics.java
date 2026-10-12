@@ -8,7 +8,7 @@ import dev.ryanhcode.sable.platform.SableEventPlatform;
 import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 
-public class TreePhysics {
+public final class TreePhysics {
     public static final String MOD_ID = "treephysics";
     private static final Logger LOGGER = LogUtils.getLogger();
 

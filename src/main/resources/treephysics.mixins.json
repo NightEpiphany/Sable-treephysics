@@ -27,6 +27,7 @@
   ],
   "client": [
     "accessors.SpriteContentsAccessor",
+    "compatibility.sodium.VanillaChunkedSubLevelRenderDataMixin",
     "leaf_effect_fixes.ParticleEngineMixin"
   ],
   "injectors": {
