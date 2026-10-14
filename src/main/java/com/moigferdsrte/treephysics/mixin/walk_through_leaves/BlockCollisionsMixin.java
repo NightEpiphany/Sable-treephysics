@@ -28,7 +28,10 @@ public class BlockCollisionsMixin {
     @Unique
     private Entity treephysics$entity;
 
-    @Inject(method = "<init>*", at = @At("TAIL"))
+    @Inject(
+        method = "<init>(Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;ZLjava/util/function/BiFunction;)V",
+        at = @At("TAIL")
+    )
     private void treephysics$init(CollisionGetter collisionGetter, Entity source, AABB box, boolean onlySuffocatingBlocks, BiFunction<?, ?, ?> resultProvider, CallbackInfo ci) {
         this.treephysics$entity = source;
     }
